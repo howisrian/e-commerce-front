@@ -1,0 +1,28 @@
+.carousel-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .carousel-slide {
+    position: relative;
+  }
+  
+  .carousel-slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .carousel-caption h3 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
