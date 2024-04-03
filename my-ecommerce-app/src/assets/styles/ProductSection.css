@@ -1,0 +1,35 @@
+.product-section-container {
+    padding: 50px; /* Espaço entre o carousel e o product section */
+  }
+  
+  .section-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .product-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .product {
+    width: 30%;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .product img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .product-details h3 {
+    margin-top: 0;
+  }
+  
+  .product-details p {
+    margin: 10px 0;
+  }
