@@ -1,0 +1,31 @@
+.header {
+    background-color: #333; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+  }
+  
+  .logo {
+    font-size: 24px; /* Tamanho da fonte do logotipo */
+  }
+  
+  .navbar {
+    list-style-type: none; /* Remover marcadores de lista */
+    padding: 0; /* Remover o espaçamento interno da lista */
+    display: flex; /* Exibir itens de navegação em linha */
+    justify-content: center; /* Centralizar itens de navegação */
+  }
+  
+  .navbar li {
+    margin: 0 10px; /* Espaçamento horizontal entre itens de navegação */
+  }
+  
+  .navbar li a {
+    color: white; /* Cor do texto do link */
+    text-decoration: none; /* Remover sublinhado do link */
+  }
+  
+  .navbar li a:hover {
+    text-decoration: underline; /* Adicionar sublinhado ao passar o mouse sobre o link */
+  }
+  
