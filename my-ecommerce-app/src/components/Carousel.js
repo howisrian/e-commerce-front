@@ -22,6 +22,7 @@ const Carousel = () => {
 
   return (
     <div className="carousel-container">
+      <h2>Promoções do Dia</h2>
       <Slider {...settings}>
         <div className="carousel-slide">
           <img src={imgProduto1} alt="Imagem 1" />
